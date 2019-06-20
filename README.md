@@ -23,8 +23,8 @@ En esta versión del problema los objetos son indivisibles, con lo que sólo ten
 
 ## Descripción del esquema algorítmico utilizado y como se aplica al problema
 
-Se tiene una mochila con una capacidad máxima de V y n objetos con volúmenes v = (v1; v2; : : : ; vn) y benefícios b = (b1; b2; : : : ; bn). Los valores de los volúmenes son enteros. El objetivo de este problema es encontrar una selección de objetos cuya suma de volúmenes no supere la capacidad máxima de la mochila, y de forma que la suma de benefícios sea máxima. Este es un problema de optimización con restricciones que se puede plantear de la siguiente forma:
+Se tiene una mochila con una capacidad máxima de V y n objetos con volúmenes v = (v1; v2; ... ; vn) y benefícios b = (b1; b2; ... ; bn). Los valores de los volúmenes son enteros. El objetivo de este problema es encontrar una selección de objetos cuya suma de volúmenes no supere la capacidad máxima de la mochila, y de forma que la suma de benefícios sea máxima. Este es un problema de optimización con restricciones que se puede plantear de la siguiente forma:
 
-![equation](http://www.sciweavers.org/tex2img.php?eq=maximizar%20%5Csum_%7Bi%3D0%7D%5E%7Bn%7D%20x_ib_i%20%5Cmbox%7B%20cumpliendo%20%7D%20%5Csum_%7Bi%3D0%7D%5E%7Bn%7D%20x_iv_i%20%5Cleq%20V&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+![equation](http://bit.ly/2L3TaZr)
 
 Vea la documentación aportada en el repositorio para la solucón completa.
